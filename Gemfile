@@ -1,2 +1,7 @@
 source 'https://rubygems.org'
-gem 'sinatra'
+
+gem "sinatra"
+
+group :production do
+  gem "pg"
+end
